@@ -28,4 +28,11 @@ export const FormContainer = styled.div`
   flex-wrap: wrap;
 `
 
-export const CountdownContainer = styled.div``
+export const CountdownContainer = styled.div`
+  font-family: 'Roboto mono', monospace;
+  font-size: 10rem;
+  line-height: 8rem;
+  color: ${props => props.theme['gray-100']};
+
+  display: flex;
+`
