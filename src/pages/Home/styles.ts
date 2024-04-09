@@ -38,6 +38,9 @@ const BaseInput = styled.input`
   padding: 0 0.5rem;
   color: ${props => props.theme['gray-100']};
 
+  &:focus {
+  }
+
   &::placeholder {
     color: ${props => props.theme['gray-500']};
   }
